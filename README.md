@@ -24,8 +24,9 @@
 ### Setting up and running tests
 1. Make sure `Python` extension is installed.
 2. Install `selenium` in project dependencies with `pip install -U selenium`
-3. If you want to see the list of test cases which are automated, then You can find them at `utils\test_cases.py`
-3. If you want to run just a class, you should type: ` python -m unittest tests.LoginTests.LoginTests`
-4. If you want to run just a test method, you should type: `python -m unittest tests.LoginTests.LoginTests.test_page_load`
-5. If you want to run complete `TestSuite`, you should type `python -m unittest TestSuite.py`
+3. Make sure `webdriver_manager` is installed prior to running the test using `pip install webdriver_manager`
+4. If you want to see the list of test cases which are automated, then You can find them at `utils\test_cases.py`
+5. If you want to run just a class, you should type: ` python -m unittest tests.LoginTests.LoginTests`
+6. If you want to run just a test method, you should type: `python -m unittest tests.LoginTests.LoginTests.test_page_load`
+7. If you want to run complete `TestSuite`, you should type `python -m unittest TestSuite.py`
 
